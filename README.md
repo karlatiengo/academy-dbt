@@ -1,21 +1,9 @@
-# Indicium Academy
+Welcome to my project!
 
-Repositório para ser utilizado no desafio para a obtenção da certificação de Analytics Engineer by Indicium. Faça o fork deste repositório e o utilize durante o desafio para fazer a insgestão das tabelas do SAP do Adventure Works.
+This files are used to transform data that is in the Data warehouse (Google BigQuery), preparing it to be used by a data viz tool. 
+These files are used to transform data that is in the Data warehouse (Google BigQuery), preparing it to be used by a data viz tool. 
 
-## Instruções
-
-Todas as tabelas do banco fonte do SAP da Adventure Works serão carregadas como seeds pelo dbt. Os arquivos .csv com os dados já estão na pasta de seeds.
-
-Para fazer o carregamento de todas as tabelas usem o comando:
-- `dbt seed`
-
-Para carregar uma tabela especifíca utilizem o comando
-- `dbt seed -s nome_do_csv`
-
-### Problemas comuns
-
-Em caso a linha de comando do dbt fique com o status de estar sempre carregando, ou, o job do comando `dbt seed` fique rodando indefinitivamente mesmo após as 64 tabelas forem carregadas você precisará reiniciar o terminal. Para isso, clique nos três pontos no canto inferior direito ou no lado direito da linha de comando e escolha a opção `Restart IDE`.
-
+The data used in this project is data from the company AdventureWorks, a sample database provided by Microsoft.
 
 ## Recursos:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
